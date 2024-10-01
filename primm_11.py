@@ -5,12 +5,13 @@ Name - Date
 """
 
 def main():
+    
   
-    num1: int = input("Enter a number: ")
-    num2: int = input("Enter another number: ")
-    total: int = num1+num2
+    num1: int = int(input ("Enter a number:  "))
+    num2: int = int(input ("Enter another number: "))
+    total: int = num1%num2
 
-    print(f"{num1} + {num2} = {total}")
+    print({num1}, '%', {num2}, "=",{total})
 
 if __name__ == "__main__":
   main()
